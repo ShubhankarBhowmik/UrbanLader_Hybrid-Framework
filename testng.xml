@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.Utilities.Reporting"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="com.testcase.BaseClass"/>
+      <class name="com.testcase.TC_searchbox_1"/>
+		<class name="com.testcase.TC_email_2"/>
+		<class name="com.testcase.TC_items_3"/>
+		<class name="com.testcase.TC_about_4"/>
+		<class name="com.testcase.TC_aboutele_5"/>
+		<class name="com.testcase.TC_store_6"/>
+		<class name="com.testcase.TC_storeele_7"/>
+		<class name="com.testcase.TC_contact_8"/>
+		<class name="com.testcase.TC_contectsearch_9"/>
+		<class name="com.testcase.TC_helpsearch_10"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
